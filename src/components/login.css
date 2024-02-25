@@ -1,0 +1,46 @@
+.main-bg {
+    background-color: black;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: start;
+    align-content: center;
+}
+
+form#formData {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.forminputfield {
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #e78225;
+}
+
+#errorText {
+    color: red;
+
+}
+
+#errorText::placeholder {
+    color: red;
+
+}
+
+.butn {
+    display: flex;
+    justify-content: center;
+}
+
+.butn input[type="submit"] {
+    background: #edca62;
+    border: 2px solid #de900b;
+    color: #3c3109;
+    padding: 6px 40px;
+    border-radius: 10px;
+    font-weight: 500;
+}
